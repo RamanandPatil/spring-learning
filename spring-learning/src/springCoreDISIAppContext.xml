@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns="http://www.springframework.org/schema/beans"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+    http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!-- Add a logger config to see logging messages. - For more detailed logs,
+        set values to "FINEST" - For info on logging levels, see: http://www.vogella.com/tutorials/Logging/article.html -->
+    <bean id="myLoggerConfig"
+          class="learning.spring.logging.MyLoggerConfig"
+          init-method="initLogger">
+        <property name="rootLoggerLevel" value="FINE"/>
+        <property name="printedLoggerLevel" value="FINE"/>
+    </bean>
+
+
+    <!-- Define your beans here -->
+
+    <!-- Dependency Injection Part(DI) -->
+
+    <!-- Define the dependency -->
+    <bean id="fortuneService"
+          class="learning.spring.core.di.common.services.HappyFortuneService">
+    </bean>
+
+    <!-- If you want TrackCoach in your application. -->
+    <!--<bean id="myCoachDISI"
+          class="learning.spring.core.di.si.coach.TrackCoach">
+
+        &lt;!&ndash; set up setter injections &ndash;&gt;
+        <property name="fortuneService" ref="fortuneService"/>
+        <property name="emailAddress" value="abc@abc.com" />
+        <property name="teamName" value="Best Tracks Rocks" />
+    </bean>-->
+
+    <!-- If you want CricketCoach in your application. -->
+    <!--<bean id="myCoachDISI"
+          class="learning.spring.core.di.si.coach.CricketCoach">
+
+        &lt;!&ndash; set up setter injections &ndash;&gt;
+        <property name="fortuneService" ref="fortuneService"/>
+        <property name="emailAddress" value="cricket@abc.com"/>
+        <property name="teamName" value="Royal Challengers Bengaluru."/>
+    </bean>-->
+
+    <!-- If you want BaseBallCoach in your application. -->
+    <bean id="myCoachDISI"
+          class="learning.spring.core.di.si.coach.BaseBallCoach">
+
+        <!-- set up setter injections -->
+        <property name="fortuneService" ref="fortuneService"/>
+        <property name="emailAddress" value="baseball@abc.com"/>
+        <property name="teamName" value="Best BaseBall(BBB) Team"/>
+    </bean>
+
+</beans>
+
+
+
+
+

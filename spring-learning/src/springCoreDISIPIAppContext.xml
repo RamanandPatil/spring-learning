@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns="http://www.springframework.org/schema/beans" xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+    http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/context https://www.springframework.org/schema/context/spring-context.xsd">
+
+    <!-- Add a logger config to see logging messages. - For more detailed logs,
+        set values to "FINEST" - For info on logging levels, see: http://www.vogella.com/tutorials/Logging/article.html -->
+    <bean id="myLoggerConfig"
+          class="learning.spring.logging.MyLoggerConfig"
+          init-method="initLogger">
+        <property name="rootLoggerLevel" value="FINE"/>
+        <property name="printedLoggerLevel" value="FINE"/>
+    </bean>
+
+<!--    To load property file via Spring-->
+    <context:property-placeholder location="classpath:sport.properties"/>
+
+
+    <!-- Define your beans here -->
+
+    <!-- Dependency Injection Part(DI) -->
+
+    <!-- Define the dependency -->
+    <bean id="fortuneService"
+          class="learning.spring.core.di.common.services.HappyFortuneService">
+    </bean>
+
+   <!-- If you want PropertyFileCoach in your application. -->
+    <bean id="myCoachDISIPI"
+          class="learning.spring.core.di.pi.coach.PropertyFileCoach">
+
+        <!-- set up setter injections -->
+        <property name="fortuneService" ref="fortuneService"/>
+        <property name="emailAddress" value="${props.email}"/>
+        <property name="teamName" value="${props.name}"/>
+    </bean>
+
+</beans>
+
+
+
+
+
