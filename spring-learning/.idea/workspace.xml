@@ -1,7 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="228b6357-153f-42d7-bbb1-71ac149c049f" name="Default Changelist" comment="" />
+    <list default="true" id="228b6357-153f-42d7-bbb1-71ac149c049f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/learning/spring/bean/common/coaches/BaseBallCoach.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/learning/spring/bean/common/coaches/Coach.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/learning/spring/bean/common/coaches/CricketCoach.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/learning/spring/bean/common/coaches/LifeCycleCoach.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/learning/spring/bean/common/services/FortuneService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/learning/spring/bean/common/services/HappyFortuneService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/learning/spring/bean/lifecycle/BeanLifecycleDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/learning/spring/bean/scopes/BeanScopesDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/springBeanLifeCycleAppContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/springBeanScopesAppContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/springCoreDICIAppContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/springCoreDICIAppContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/springCoreDISIAppContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/springCoreDISIAppContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/springCoreDISIPIAppContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/springCoreDISIPIAppContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/springCoreIOCAppContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/springCoreIOCAppContext.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,6 +35,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
       <MavenImportingSettings>
@@ -26,7 +46,11 @@
     </option>
   </component>
   <component name="ProjectId" id="1PoqthNcYXN596C36trh1fLf7m1" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src" />
@@ -39,10 +63,16 @@
     <property name="typescript.add.unambiguous.imports.on.the.fly" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="learning.spring.beans" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="learning.spring.core.di.pi" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Learning\Spring\spring-learning\spring-learning\src" />
+      <recent name="D:\Learning\Spring\spring-learning\spring-learning\src\learning\spring\bean\scopes\common\coaches" />
+      <recent name="D:\Learning\Spring\spring-learning\spring-learning\src\learning\spring\bean\scopes" />
       <recent name="D:\Learning\Spring\spring-learning\src" />
     </key>
   </component>
@@ -58,7 +88,33 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.DIPropsFileInjectionDemo">
+  <component name="RunManager" selected="Application.BeanLifecycleDemo">
+    <configuration name="BeanLifecycleDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="learning.spring.bean.lifecycle.BeanLifecycleDemo" />
+      <module name="spring-learning" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="learning.spring.bean.lifecycle.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BeanScopesDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="learning.spring.bean.scopes.BeanScopesDemo" />
+      <module name="spring-learning" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="learning.spring.bean.scopes.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="DIConstructorInjectionDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="learning.spring.core.di.ci.main.DIConstructorInjectionDemo" />
       <module name="spring-learning" />
@@ -98,39 +154,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="learning.spring.core.ioc.main.MyApp" />
-      <module name="spring-learning" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="learning.spring.core.ioc.main.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SpringCoreIOCDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="learning.spring.core.ioc.main.SpringCoreIOCDemo" />
-      <module name="spring-learning" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="learning.spring.core.ioc.main.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+    <list>
+      <item itemvalue="Application.BeanScopesDemo" />
+      <item itemvalue="Application.DIConstructorInjectionDemo" />
+      <item itemvalue="Application.DIPropsFileInjectionDemo" />
+      <item itemvalue="Application.DISetterInjectionDemo" />
+      <item itemvalue="Application.BeanLifecycleDemo" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BeanLifecycleDemo" />
+        <item itemvalue="Application.BeanScopesDemo" />
         <item itemvalue="Application.DIPropsFileInjectionDemo" />
         <item itemvalue="Application.DISetterInjectionDemo" />
         <item itemvalue="Application.DIConstructorInjectionDemo" />
-        <item itemvalue="Application.SpringCoreIOCDemo" />
-        <item itemvalue="Application.MyApp" />
       </list>
     </recent_temporary>
   </component>
@@ -148,10 +185,33 @@
       <workItem from="1567466887938" duration="793000" />
       <workItem from="1567516491661" duration="1121000" />
       <workItem from="1567551276165" duration="2186000" />
+      <workItem from="1567554580713" duration="76000" />
+      <workItem from="1567575513359" duration="742000" />
+      <workItem from="1567612073251" duration="1256000" />
+      <workItem from="1567636005835" duration="1568000" />
+      <workItem from="1567637881300" duration="761000" />
+      <workItem from="1567658578036" duration="1929000" />
+      <workItem from="1567683408191" duration="6524000" />
+      <workItem from="1567739571048" duration="3150000" />
+      <workItem from="1567773344533" duration="5898000" />
+      <workItem from="1567808956855" duration="915000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

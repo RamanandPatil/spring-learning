@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 5. Spring Bean Scopes: Singleton and Prototype Scope -->
+<beans xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns="http://www.springframework.org/schema/beans"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+    http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!-- Add a logger config to see logging messages. - For more detailed logs,
+        set values to "FINEST" - For info on logging levels, see: http://www.vogella.com/tutorials/Logging/article.html -->
+    <bean id="myLoggerConfig"
+          class="learning.spring.logging.MyLoggerConfig"
+          init-method="initLogger">
+        <property name="rootLoggerLevel" value="FINE"/>
+        <property name="printedLoggerLevel" value="FINE"/>
+    </bean>
+
+
+    <!-- Define your beans here -->
+    <!-- Define scope of BaseBallCoach as singleton which is actually a default scope. -->
+    <bean id="singletonCoach"
+          class="learning.spring.bean.common.coaches.BaseBallCoach"
+          scope="singleton"> <!-- No need to provide this scope explicitly -->
+    </bean>
+
+    <!-- Define scope of CricketCoach as Prototype scope. -->
+    <bean id="prototypeCoach"
+          class="learning.spring.bean.common.coaches.CricketCoach"
+          scope="prototype">
+    </bean>
+
+</beans>
+
+
+
+
+
