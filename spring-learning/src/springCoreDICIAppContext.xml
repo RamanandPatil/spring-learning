@@ -21,12 +21,12 @@
 
     <!-- Define the dependency -->
     <bean id="fortuneService"
-          class="learning.spring.core.di.common.services.HappyFortuneService">
+          class="learning.spring.core.xml.di.common.services.HappyFortuneService">
     </bean>
 
     <!-- If you want BaseBallCoach in your application. -->
     <!--<bean id="myCoachDICI"
-          class="learning.spring.core.di.ci.coach.BaseBallCoach">
+          class="learning.spring.core.xml.di.ci.coach.BaseBallCoach">
         &lt;!&ndash; set up constructor injection &ndash;&gt;
         <constructor-arg ref="fortuneService">
         </constructor-arg>
@@ -34,7 +34,7 @@
 
     <!-- If you want CricketCoach in your application. -->
     <!--<bean id="myCoachDICI"
-          class="learning.spring.core.di.ci.coach.CricketCoach">
+          class="learning.spring.core.xml.di.ci.coach.CricketCoach">
         &lt;!&ndash; set up constructor injection &ndash;&gt;
         <constructor-arg ref="fortuneService">
         </constructor-arg>
@@ -42,7 +42,7 @@
 
     <!-- If you want TrackCoach in your application. -->
     <bean id="myCoachDICI"
-          class="learning.spring.core.di.ci.coach.TrackCoach">
+          class="learning.spring.core.xml.di.ci.coach.TrackCoach">
         <!-- set up constructor injection -->
         <constructor-arg ref="fortuneService"/>
     </bean>

@@ -18,7 +18,7 @@
     <!-- Define your beans here -->
     <!-- Define Lifecycle methods for myLifeCycleCoach bean. -->
     <bean id="myLifeCycleCoach"
-          class="learning.spring.bean.common.coaches.LifeCycleCoach"
+          class="learning.spring.core.xml.bean.common.coaches.LifeCycleCoach"
           init-method="myInitMethod"
           destroy-method="myDestroyMethod">
     </bean>

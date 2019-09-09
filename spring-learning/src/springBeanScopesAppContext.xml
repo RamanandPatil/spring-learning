@@ -18,13 +18,13 @@
     <!-- Define your beans here -->
     <!-- Define scope of BaseBallCoach as singleton which is actually a default scope. -->
     <bean id="singletonCoach"
-          class="learning.spring.bean.common.coaches.BaseBallCoach"
+          class="learning.spring.core.xml.bean.common.coaches.BaseBallCoach"
           scope="singleton"> <!-- No need to provide this scope explicitly -->
     </bean>
 
     <!-- Define scope of CricketCoach as Prototype scope. -->
     <bean id="prototypeCoach"
-          class="learning.spring.bean.common.coaches.CricketCoach"
+          class="learning.spring.core.xml.bean.common.coaches.CricketCoach"
           scope="prototype">
     </bean>
 

@@ -27,12 +27,12 @@
 
     <!-- Define the dependency -->
     <bean id="fortuneService"
-          class="learning.spring.core.di.common.services.HappyFortuneService">
+          class="learning.spring.core.xml.di.common.services.HappyFortuneService">
     </bean>
 
    <!-- If you want PropertyFileCoach in your application. -->
     <bean id="myCoachDISIPI"
-          class="learning.spring.core.di.pi.coach.PropertyFileCoach">
+          class="learning.spring.core.xml.di.pi.coach.PropertyFileCoach">
 
         <!-- set up setter injections -->
         <property name="fortuneService" ref="fortuneService"/>

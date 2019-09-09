@@ -25,24 +25,24 @@
 
     <!-- If you want BaseBallCoach in your application. -->
     <!-- <bean id="myCoachIOC"
-        class="learning.spring.core.ioc.coach.BaseBallCoach">
+        class="learning.spring.core.xml.ioc.coach.BaseBallCoach">
     </bean> -->
 
 
     <!-- If you want TrackCoach in your application. -->
     <!-- <bean id="myCoachIOC"
-        class="learning.spring.core.ioc.coach.TrackCoach">
+        class="learning.spring.core.xml.ioc.coach.TrackCoach">
     </bean> -->
 
 
     <!-- If you want CricketCoach in your application. -->
     <!-- <bean id="myCoachIOC"
-        class="learning.spring.core.ioc.coach.CricketCoach">
+        class="learning.spring.core.xml.ioc.coach.CricketCoach">
     </bean> -->
 
     <!-- If you want GolfCoach in your application. -->
     <bean id="myCoachIOC"
-          class="learning.spring.core.ioc.coach.GolfCoach">
+          class="learning.spring.core.xml.ioc.coach.GolfCoach">
     </bean>
 
 </beans>
