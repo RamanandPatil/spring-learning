@@ -2,43 +2,33 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="228b6357-153f-42d7-bbb1-71ac149c049f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/learning/spring/core/annotations/di/ci/coach/TennisCoach.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/learning/spring/core/annotations/di/ci/main/DICIAnnotationDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/learning/spring/core/annotations/di/common/coach/Coach.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/learning/spring/core/annotations/di/common/services/FortuneService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/learning/spring/core/annotations/di/common/services/HappyFortuneService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/learning/spring/core/annotations/di/fi/coach/TennisCoach.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/learning/spring/core/annotations/di/fi/main/DIFIAnnotationDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/learning/spring/core/annotations/di/mi/coach/TennisCoach.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/learning/spring/core/annotations/di/mi/main/DIMIAnnotationDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/learning/spring/core/annotations/di/si/coach/TennisCoach.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/learning/spring/core/annotations/di/si/main/DISIAnnotationDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/learning/spring/core/annotations/ioc/coach/BaseBallCoach.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/learning/spring/core/annotations/ioc/coach/Coach.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/learning/spring/core/annotations/ioc/coach/CricketCoach.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/learning/spring/core/annotations/ioc/main/DefaultComponentNameDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/learning/spring/core/annotations/ioc/main/ExplicitComponentNameDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/learning/spring/core/annotations/qualifier/coaches/Coach.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/learning/spring/core/annotations/qualifier/main/AnnotationQualifiersDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/springCoreAnnotationsDICIAppContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/springCoreAnnotationsDIFIAppContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/springCoreAnnotationsDIMIAppContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/springCoreAnnotationsDISIAppContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/springCoreAnnotationsIOCAppContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/springCoreAnnotationsQualifierAppContext.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/learning/spring/bean/common/coaches/BaseBallCoach.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/learning/spring/core/xml/bean/common/coaches/BaseBallCoach.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/learning/spring/bean/common/coaches/Coach.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/learning/spring/core/xml/bean/common/coaches/Coach.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/learning/spring/bean/common/coaches/CricketCoach.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/learning/spring/core/xml/bean/common/coaches/CricketCoach.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/learning/spring/bean/common/coaches/LifeCycleCoach.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/learning/spring/core/xml/bean/common/coaches/LifeCycleCoach.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/learning/spring/bean/common/services/FortuneService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/learning/spring/core/xml/bean/common/services/FortuneService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/learning/spring/bean/common/services/HappyFortuneService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/learning/spring/core/xml/bean/common/services/HappyFortuneService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/learning/spring/bean/lifecycle/BeanLifecycleDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/learning/spring/core/xml/bean/lifecycle/BeanLifecycleDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/learning/spring/bean/scopes/BeanScopesDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/learning/spring/core/xml/bean/scopes/BeanScopesDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/learning/spring/core/di/ci/coach/BaseBallCoach.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/learning/spring/core/xml/di/ci/coach/BaseBallCoach.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/learning/spring/core/di/ci/coach/Coach.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/learning/spring/core/xml/di/ci/coach/Coach.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/learning/spring/core/di/ci/coach/CricketCoach.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/learning/spring/core/xml/di/ci/coach/CricketCoach.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/learning/spring/core/di/ci/coach/TrackCoach.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/learning/spring/core/xml/di/ci/coach/TrackCoach.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/learning/spring/core/di/ci/main/DIConstructorInjectionDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/learning/spring/core/xml/di/ci/main/DIConstructorInjectionDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/learning/spring/core/di/common/services/FortuneService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/learning/spring/core/xml/di/common/services/FortuneService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/learning/spring/core/di/common/services/HappyFortuneService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/learning/spring/core/xml/di/common/services/HappyFortuneService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/learning/spring/core/di/pi/DIPropsFileInjectionDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/learning/spring/core/xml/di/pi/DIPropsFileInjectionDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/learning/spring/core/di/pi/coach/PropertyFileCoach.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/learning/spring/core/xml/di/pi/coach/PropertyFileCoach.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/learning/spring/core/di/si/coach/AbstractCoach.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/learning/spring/core/xml/di/si/coach/AbstractCoach.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/learning/spring/core/di/si/coach/BaseBallCoach.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/learning/spring/core/xml/di/si/coach/BaseBallCoach.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/learning/spring/core/di/si/coach/Coach.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/learning/spring/core/xml/di/si/coach/Coach.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/learning/spring/core/di/si/coach/CricketCoach.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/learning/spring/core/xml/di/si/coach/CricketCoach.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/learning/spring/core/di/si/coach/TrackCoach.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/learning/spring/core/xml/di/si/coach/TrackCoach.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/learning/spring/core/di/si/main/DISetterInjectionDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/learning/spring/core/xml/di/si/main/DISetterInjectionDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/learning/spring/core/ioc/coach/BaseBallCoach.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/learning/spring/core/xml/ioc/coach/BaseBallCoach.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/learning/spring/core/ioc/coach/Coach.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/learning/spring/core/xml/ioc/coach/Coach.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/learning/spring/core/ioc/coach/CricketCoach.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/learning/spring/core/xml/ioc/coach/CricketCoach.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/learning/spring/core/ioc/coach/GolfCoach.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/learning/spring/core/xml/ioc/coach/GolfCoach.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/learning/spring/core/ioc/coach/TrackCoach.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/learning/spring/core/xml/ioc/coach/TrackCoach.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/learning/spring/core/ioc/main/MyApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/learning/spring/core/xml/ioc/main/MyApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/learning/spring/core/ioc/main/SpringCoreIOCDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/learning/spring/core/xml/ioc/main/SpringCoreIOCDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/springBeanLifeCycleAppContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/springBeanLifeCycleAppContext.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/springBeanScopesAppContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/springBeanScopesAppContext.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/springCoreDICIAppContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/springCoreDICIAppContext.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/springCoreDISIAppContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/springCoreDISIAppContext.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/springCoreDISIPIAppContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/springCoreDISIPIAppContext.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/springCoreIOCAppContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/springCoreIOCAppContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/learning/spring/core/xml/bean/common/coaches/LifeCycleCoach.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/learning/spring/core/xml/bean/common/coaches/LifeCycleCoach.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/learning/spring/core/xml/bean/lifecycle/BeanLifecycleDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/learning/spring/core/xml/bean/lifecycle/BeanLifecycleDemo.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -53,6 +43,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -74,7 +65,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/learning/spring/core/annotations/di/fi" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -88,13 +79,16 @@
       <recent name="learning.spring.beans" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="learning.spring.core.annotations.di.si.coach" />
+      <recent name="learning.spring.core.annotations.ioc" />
       <recent name="learning.spring.core.di.pi" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Learning\Spring\spring-learning\spring-learning\src\learning\spring\core\annotations\di\fi" />
       <recent name="D:\Learning\Spring\spring-learning\spring-learning\src" />
-      <recent name="D:\Learning\Spring\spring-learning\spring-learning\src\learning\spring\bean\scopes\common\coaches" />
-      <recent name="D:\Learning\Spring\spring-learning\spring-learning\src\learning\spring\bean\scopes" />
-      <recent name="D:\Learning\Spring\spring-learning\src" />
+      <recent name="D:\Learning\Spring\spring-learning\spring-learning\src\learning\spring\core\annotations\di\mi" />
+      <recent name="D:\Learning\Spring\spring-learning\spring-learning\src\learning\spring\core\annotations\di\si" />
+      <recent name="D:\Learning\Spring\spring-learning\spring-learning\src\learning\spring\core\annotations\di" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -109,13 +103,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.BeanLifecycleDemo">
-    <configuration name="BeanLifecycleDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="learning.spring.core.xml.bean.lifecycle.BeanLifecycleDemo" />
+  <component name="RunManager" selected="Application.DISIAnnotationDemo">
+    <configuration name="DICIAnnotationDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="learning.spring.core.annotations.di.ci.main.DICIAnnotationDemo" />
       <module name="spring-learning" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="learning.spring.core.xml.bean.lifecycle.*" />
+          <option name="PATTERN" value="learning.spring.core.annotations.di.ci.main.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -123,12 +117,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BeanScopesDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="learning.spring.core.xml.bean.scopes.BeanScopesDemo" />
+    <configuration name="DIFIAnnotationDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="learning.spring.core.annotations.di.fi.main.DIFIAnnotationDemo" />
       <module name="spring-learning" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="learning.spring.core.xml.bean.scopes.*" />
+          <option name="PATTERN" value="learning.spring.core.annotations.di.fi.main.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -136,12 +130,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DIConstructorInjectionDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="learning.spring.core.xml.di.ci.main.DIConstructorInjectionDemo" />
+    <configuration name="DIMIAnnotationDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="learning.spring.core.annotations.di.mi.main.DIMIAnnotationDemo" />
       <module name="spring-learning" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="learning.spring.core.xml.di.ci.main.*" />
+          <option name="PATTERN" value="learning.spring.core.annotations.di.mi.main.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -149,12 +143,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DIPropsFileInjectionDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="learning.spring.core.xml.di.pi.DIPropsFileInjectionDemo" />
+    <configuration name="DISIAnnotationDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="learning.spring.core.annotations.di.si.main.DISIAnnotationDemo" />
       <module name="spring-learning" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="learning.spring.core.xml.di.pi.*" />
+          <option name="PATTERN" value="learning.spring.core.annotations.di.si.main.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -162,12 +156,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DISetterInjectionDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="learning.spring.core.xml.di.si.main.DISetterInjectionDemo" />
+    <configuration name="DefaultComponentNameDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="learning.spring.core.annotations.ioc.main.DefaultComponentNameDemo" />
       <module name="spring-learning" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="learning.spring.core.xml.di.si.main.*" />
+          <option name="PATTERN" value="learning.spring.core.annotations.ioc.main.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -176,19 +170,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.BeanScopesDemo" />
-      <item itemvalue="Application.DIConstructorInjectionDemo" />
-      <item itemvalue="Application.DIPropsFileInjectionDemo" />
-      <item itemvalue="Application.DISetterInjectionDemo" />
-      <item itemvalue="Application.BeanLifecycleDemo" />
+      <item itemvalue="Application.DefaultComponentNameDemo" />
+      <item itemvalue="Application.DICIAnnotationDemo" />
+      <item itemvalue="Application.DISIAnnotationDemo" />
+      <item itemvalue="Application.DIMIAnnotationDemo" />
+      <item itemvalue="Application.DIFIAnnotationDemo" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.BeanLifecycleDemo" />
-        <item itemvalue="Application.BeanScopesDemo" />
-        <item itemvalue="Application.DIPropsFileInjectionDemo" />
-        <item itemvalue="Application.DISetterInjectionDemo" />
-        <item itemvalue="Application.DIConstructorInjectionDemo" />
+        <item itemvalue="Application.DIFIAnnotationDemo" />
+        <item itemvalue="Application.DIMIAnnotationDemo" />
+        <item itemvalue="Application.DISIAnnotationDemo" />
+        <item itemvalue="Application.DICIAnnotationDemo" />
+        <item itemvalue="Application.DefaultComponentNameDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -219,6 +213,8 @@
       <workItem from="1567860708749" duration="1528000" />
       <workItem from="1568016403851" duration="128000" />
       <workItem from="1568016597001" duration="1971000" />
+      <workItem from="1568035924373" duration="7693000" />
+      <workItem from="1568068829951" duration="5673000" />
     </task>
     <servers />
   </component>
