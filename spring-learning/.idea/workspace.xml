@@ -2,20 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="228b6357-153f-42d7-bbb1-71ac149c049f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/learning/spring/core/annotations/pi/coach/TennisCoach.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/learning/spring/core/annotations/pi/main/DIPIAnnotationDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/learning/spring/core/annotations/qualifier/Note.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/learning/spring/core/annotations/qualifier/coaches/TennisCoach.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/learning/spring/core/annotations/qualifier/services/DatabaseFortuneService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/learning/spring/core/annotations/qualifier/services/FortuneService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/learning/spring/core/annotations/qualifier/services/HappyFortuneService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/learning/spring/core/annotations/qualifier/services/RESTFortuneService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/learning/spring/core/annotations/qualifier/services/RandomFortuneService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/springCoreAnnotationsDIPIAppContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/javax_annotation_api_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fortunes.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/learning/spring/core/annotations/qualifier/services/RandomFileFortuneService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/learning/spring/core/annotations/di/ci/coach/TennisCoach.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/learning/spring/core/annotations/di/ci/coach/TennisCoach.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/learning/spring/core/annotations/qualifier/coaches/Coach.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/learning/spring/core/annotations/qualifier/coaches/Coach.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/learning/spring/core/annotations/qualifier/main/AnnotationQualifiersDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/learning/spring/core/annotations/qualifier/main/AnnotationQualifiersDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-learning.iml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-learning.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/learning/spring/core/annotations/qualifier/coaches/TennisCoach.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/learning/spring/core/annotations/qualifier/coaches/TennisCoach.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -52,16 +44,19 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/lib/javax.annotation-api-1.2.jar!/" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.import" />
     <property name="typescript.add.unambiguous.imports.on.the.fly" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Learning\Spring\spring-learning\spring-learning" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="learning.spring.beans" />
     </key>
@@ -92,7 +87,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.DIPIAnnotationDemo">
+  <component name="RunManager" selected="Application.AnnotationQualifiersDemo">
     <configuration name="AnnotationQualifiersDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="learning.spring.core.annotations.qualifier.main.AnnotationQualifiersDemo" />
       <module name="spring-learning" />
@@ -167,8 +162,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.DIPIAnnotationDemo" />
         <item itemvalue="Application.AnnotationQualifiersDemo" />
+        <item itemvalue="Application.DIPIAnnotationDemo" />
         <item itemvalue="Application.DICIAnnotationDemo" />
         <item itemvalue="Application.DIFIAnnotationDemo" />
         <item itemvalue="Application.DIMIAnnotationDemo" />
@@ -206,7 +201,8 @@
       <workItem from="1568068829951" duration="5673000" />
       <workItem from="1568084104031" duration="1126000" />
       <workItem from="1568087238994" duration="1799000" />
-      <workItem from="1568114021072" duration="10384000" />
+      <workItem from="1568114021072" duration="10427000" />
+      <workItem from="1568155257351" duration="3348000" />
     </task>
     <servers />
   </component>

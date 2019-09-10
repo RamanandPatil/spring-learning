@@ -64,9 +64,12 @@ public class TennisCoach implements Coach {
     @Autowired
     // @Qualifier("databaseFortuneService")
     // @Qualifier("happyFortuneService")
-    @Qualifier("randomFortuneService")
+    // @Qualifier("randomFortuneService")
+    @Qualifier("randomFileFortuneService")
     // @Qualifier("RESTFortuneService")
     public void setFortuneService(FortuneService fortuneService) {
+        System.out.println("TennisCoach.setFortuneService() "
+                           + "Setter Injection with @Qualifier.");
         this.fortuneService = fortuneService;
     }
 
