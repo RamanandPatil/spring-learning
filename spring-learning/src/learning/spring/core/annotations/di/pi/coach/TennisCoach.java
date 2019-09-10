@@ -1,4 +1,4 @@
-package learning.spring.core.annotations.pi.coach;
+package learning.spring.core.annotations.di.pi.coach;
 
 import learning.spring.core.annotations.di.common.coach.Coach;
 import learning.spring.core.annotations.di.common.services.FortuneService;

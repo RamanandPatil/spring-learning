@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- 13. Spring Core Annotations: Used to demo the concepts in
-        learning.spring.core.annotations.pi package -->
+        learning.spring.core.annotations.di.pi package -->
 <beans xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xmlns:context="http://www.springframework.org/schema/context"
        xmlns="http://www.springframework.org/schema/beans"
@@ -20,7 +20,7 @@
 
     <!-- add entry to enable component scanning -->
     <context:component-scan base-package="learning.spring.core.annotations.di.common"/>
-    <context:component-scan base-package="learning.spring.core.annotations.pi"/>
+    <context:component-scan base-package="learning.spring.core.annotations.di.pi"/>
 
     <!-- add entry for the property file -->
     <context:property-placeholder location="classpath:sport.properties"/>

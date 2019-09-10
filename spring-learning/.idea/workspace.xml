@@ -2,12 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="228b6357-153f-42d7-bbb1-71ac149c049f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/javax_annotation_api_1_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fortunes.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/learning/spring/core/annotations/qualifier/services/RandomFileFortuneService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-learning.iml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-learning.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/learning/spring/core/annotations/qualifier/coaches/TennisCoach.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/learning/spring/core/annotations/qualifier/coaches/TennisCoach.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/learning/spring/core/annotations/pi/coach/TennisCoach.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/learning/spring/core/annotations/di/pi/coach/TennisCoach.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/learning/spring/core/annotations/pi/main/DIPIAnnotationDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/learning/spring/core/annotations/di/pi/main/DIPIAnnotationDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/springCoreAnnotationsDIPIAppContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/springCoreAnnotationsDIPIAppContext.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -87,7 +84,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.AnnotationQualifiersDemo">
+  <component name="RunManager" selected="Application.DIPIAnnotationDemo">
     <configuration name="AnnotationQualifiersDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="learning.spring.core.annotations.qualifier.main.AnnotationQualifiersDemo" />
       <module name="spring-learning" />
@@ -141,11 +138,11 @@
       </method>
     </configuration>
     <configuration name="DIPIAnnotationDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="learning.spring.core.annotations.pi.main.DIPIAnnotationDemo" />
+      <option name="MAIN_CLASS_NAME" value="learning.spring.core.annotations.di.pi.main.DIPIAnnotationDemo" />
       <module name="spring-learning" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="learning.spring.core.annotations.pi.main.*" />
+          <option name="PATTERN" value="learning.spring.core.annotations.di.pi.main.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -162,8 +159,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.AnnotationQualifiersDemo" />
         <item itemvalue="Application.DIPIAnnotationDemo" />
+        <item itemvalue="Application.AnnotationQualifiersDemo" />
         <item itemvalue="Application.DICIAnnotationDemo" />
         <item itemvalue="Application.DIFIAnnotationDemo" />
         <item itemvalue="Application.DIMIAnnotationDemo" />
@@ -202,7 +199,7 @@
       <workItem from="1568084104031" duration="1126000" />
       <workItem from="1568087238994" duration="1799000" />
       <workItem from="1568114021072" duration="10427000" />
-      <workItem from="1568155257351" duration="3348000" />
+      <workItem from="1568155257351" duration="3597000" />
     </task>
     <servers />
   </component>

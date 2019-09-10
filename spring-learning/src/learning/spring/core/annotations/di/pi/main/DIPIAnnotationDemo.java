@@ -1,6 +1,6 @@
-package learning.spring.core.annotations.pi.main;
+package learning.spring.core.annotations.di.pi.main;
 
-import learning.spring.core.annotations.pi.coach.TennisCoach;
+import learning.spring.core.annotations.di.pi.coach.TennisCoach;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 /**
