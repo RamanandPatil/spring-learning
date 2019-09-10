@@ -3,6 +3,7 @@ package learning.spring.core.annotations.di.ci.coach;
 import learning.spring.core.annotations.di.common.coach.Coach;
 import learning.spring.core.annotations.di.common.services.FortuneService;
 import learning.spring.core.annotations.di.common.services.HappyFortuneService;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
 /**
@@ -66,7 +67,7 @@ import org.springframework.stereotype.Component;
 public class TennisCoach implements Coach {
     private FortuneService fortuneService;
 
-    // @Autowired
+    @Autowired
     public TennisCoach(FortuneService fortuneService) {
         System.out.println("TennisCoach.TennisCoach(): Constructor Injection.");
         this.fortuneService = fortuneService;
