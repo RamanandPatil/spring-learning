@@ -30,7 +30,7 @@ import org.springframework.context.support.ClassPathXmlApplicationContext;
  * This also applies to both XML configuration and Annotation-based
  * configuration.
  */
-public class BeanLifecycleDemo {
+public class XMLBeanLifecycleDemo {
     public static void main(String[] args) {
         ClassPathXmlApplicationContext context =
                 new ClassPathXmlApplicationContext(

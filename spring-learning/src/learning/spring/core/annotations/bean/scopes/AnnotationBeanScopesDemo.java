@@ -1,18 +1,18 @@
-package learning.spring.core.xml.bean.scopes;
+package learning.spring.core.annotations.bean.scopes;
 
-import learning.spring.core.xml.bean.common.coaches.Coach;
+import learning.spring.core.annotations.bean.common.coaches.Coach;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
-public class BeanScopesDemo {
+public class AnnotationBeanScopesDemo {
     public static void main(String[] args) {
         // 1. Load the spring configuration file
         ClassPathXmlApplicationContext context =
                 new ClassPathXmlApplicationContext(
-                        "springBeanScopesAppContext.xml");
+                        "springCoreAnnotationsScopesLCAppContext.xml");
 
         // 2. Retrieve the singleton bean from spring container
-        Coach baseBallCoach1 = context.getBean("singletonCoach", Coach.class);
-        Coach baseBallCoach2 = context.getBean("singletonCoach", Coach.class);
+        Coach baseBallCoach1 = context.getBean("baseBallCoach", Coach.class);
+        Coach baseBallCoach2 = context.getBean("baseBallCoach", Coach.class);
 
         System.out.println("baseBallCoach1: " + baseBallCoach1.hashCode());
         System.out.println("baseBallCoach2: " + baseBallCoach2.hashCode());
@@ -27,17 +27,17 @@ public class BeanScopesDemo {
         System.out.println();
 
         // 3. Retrieve the prototype bean from spring container
-        Coach cricketCoach1 = context.getBean("prototypeCoach", Coach.class);
-        Coach cricketCoach2 = context.getBean("prototypeCoach", Coach.class);
+        Coach cricketCoach1 = context.getBean("cricketCoach", Coach.class);
+        Coach cricketCoach2 = context.getBean("cricketCoach", Coach.class);
 
         System.out.println("cricketCoach1: " + cricketCoach1.hashCode());
         System.out.println("cricketCoach2: " + cricketCoach2.hashCode());
 
         // check if they are the same
-        boolean result = (cricketCoach1 == cricketCoach2);
+        boolean result2 = (cricketCoach1 == cricketCoach2);
 
         // print out the results
-        System.out.println("Pointing to the same object: " + result);
+        System.out.println("Pointing to the same object: " + result2);
 
 
         // 4. Close the context

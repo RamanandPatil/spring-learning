@@ -65,7 +65,7 @@ public class TennisCoach implements Coach {
     // @Qualifier("databaseFortuneService")
     // @Qualifier("happyFortuneService")
     // @Qualifier("randomFortuneService")
-    @Qualifier("randomFileFortuneService")
+    @Qualifier("fileFortuneService")
     // @Qualifier("RESTFortuneService")
     public void setFortuneService(FortuneService fortuneService) {
         System.out.println("TennisCoach.setFortuneService() "

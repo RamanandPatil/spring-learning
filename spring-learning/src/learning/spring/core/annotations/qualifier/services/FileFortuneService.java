@@ -2,7 +2,7 @@ package learning.spring.core.annotations.qualifier.services;
 
 import org.springframework.stereotype.Component;
 
-import javax.annotation.PostConstruct;
+import java.io.File;
 import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Path;
@@ -10,7 +10,7 @@ import java.util.List;
 import java.util.Random;
 
 /**
- * Same as @{@link RandomFortuneService} but this class reads fortunes from a
+ * Same as {@link RandomFortuneService} but this class reads fortunes from a
  * external file called fortunes.txt.
  * <pre>
  *     Practice Activity #5 - Dependency Injection with Annotations
@@ -111,29 +111,28 @@ import java.util.Random;
  * </pre>
  */
 @Component
-public class RandomFileFortuneService implements FortuneService {
-    private String[] fortunes;
+public class FileFortuneService implements FortuneService {
+    private List<String> fortunes;
 
     // create a random number generator
     private Random random = new Random();
 
-    public RandomFileFortuneService() {
-        System.out.println("RandomFileFortuneService.RandomFileFortuneService");
-    }
-
-    @PostConstruct
-    private void setFortunesFromFile() throws IOException {
-        System.out.println("RandomFileFortuneService.setFortunesFromFile()");
-        List<String> lines = Files.readAllLines(Path.of("fortunes.txt"));
-        fortunes = new String[lines.size()];
-        for (int i = 0; i < lines.size(); i++) {
-            fortunes[i] = lines.get(i);
+    public FileFortuneService() {
+        System.out.println("FileFortuneService.FileFortuneService()");
+        File fortuneFile = new File("fortunes.txt");
+        System.out.println("Reading fortunes from file: " +
+                           fortuneFile.getAbsolutePath());
+        System.out.println("File exists: " + fortuneFile.exists());
+        try {
+            fortunes = Files.readAllLines(Path.of("fortunes.txt"));
+        } catch (IOException e) {
+            e.printStackTrace();
         }
     }
 
     @Override
     public String getFortune() {
-        System.out.print("RandomFileFortuneService.getFortune(): ");
-        return "\"" + fortunes[random.nextInt(fortunes.length)] + "\"";
+        System.out.print("FileFortuneService.getFortune(): ");
+        return "\"" + fortunes.get(random.nextInt(fortunes.size())) + "\"";
     }
 }
