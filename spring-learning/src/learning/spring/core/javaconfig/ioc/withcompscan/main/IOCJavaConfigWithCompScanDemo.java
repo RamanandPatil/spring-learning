@@ -10,7 +10,7 @@ import org.springframework.context.annotation.AnnotationConfigApplicationContext
  *
  * @author rkpatil
  */
-public class SpringCoreIOCJavaConfigDemo {
+public class IOCJavaConfigWithCompScanDemo {
 
     public static void main(String[] args) {
         // 1. Load the spring Java configuration file
