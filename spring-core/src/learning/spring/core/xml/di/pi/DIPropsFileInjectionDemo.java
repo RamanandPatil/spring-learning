@@ -6,7 +6,7 @@ import org.springframework.context.support.ClassPathXmlApplicationContext;
 /**
  * Class to demonstrate Dependency Injection using properties file.
  * The example class @{@link learning.spring.core.xml.di.pi.coach.PropertyFileCoach}
- * is used fr Injection demo, as these are exactly same as setter injection.
+ * is used for Injection demo, as these are exactly same as setter injection.
  * The only differences are the setter injection is done via properties file
  * and configuration file. Please refer to
  */
@@ -30,8 +30,7 @@ public class DIPropsFileInjectionDemo {
          * Please see the concrete classes extending @AbstractCoach and
          * springCoreDISIPIAppContext.xml and @sport.properties file for how the
          * setter injection is configured. Since, the Coach interface didn't
-         * had the email
-         * and teamName fields, we had to create a Abstract class
+         * have the email and teamName fields, we had to create a Abstract class
          * @AbstractCoach class to implement the same and to change the
          * instance of Coach via configuration file without modifying the code.
          */

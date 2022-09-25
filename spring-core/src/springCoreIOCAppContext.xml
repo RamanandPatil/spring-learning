@@ -34,7 +34,6 @@
         class="learning.spring.core.xml.ioc.coach.TrackCoach">
     </bean> -->
 
-
     <!-- If you want CricketCoach in your application. -->
     <!-- <bean id="myCoachIOC"
         class="learning.spring.core.xml.ioc.coach.CricketCoach">

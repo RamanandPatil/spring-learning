@@ -18,6 +18,8 @@ public class SpringCoreIOCDemo {
                         "springCoreIOCAppContext.xml");
 
         // 2. Retrieve bean from spring container
+        // Coach theCoach = (Coach) context.getBean("myCoachIOC");
+        // OR Use below if you don't want to use casting
         Coach theCoach = context.getBean("myCoachIOC", Coach.class);
 
         /*

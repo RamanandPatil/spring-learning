@@ -3,9 +3,9 @@ package learning.spring.core.xml.di.si.coach;
 import learning.spring.core.xml.di.common.services.FortuneService;
 
 public class CricketCoach extends AbstractCoach {
-    private FortuneService fortuneService;
-    private String emailAddress;
-    private String teamName;
+    // private FortuneService fortuneService;
+    // private String emailAddress;
+    // private String teamName;
 
     @Override
     public FortuneService getFortuneService() {

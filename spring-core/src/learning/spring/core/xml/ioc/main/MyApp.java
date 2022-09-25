@@ -19,7 +19,7 @@ public class MyApp {
          * Now if we want to change the type of the coach to TrackCoach from
          * Baseball Coach, We need to modify the source code like shown below
          *  using Spring, this can be done without source code modification.
-         * We can use use any of the 3 approaches(xml, annotation,
+         * We can use any of the 3 approaches(xml, annotation,
          * properties) to achieve this. Please refer to SpringIOCDemo.java
          * class in this package.
          */

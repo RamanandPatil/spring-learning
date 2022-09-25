@@ -11,9 +11,9 @@ import learning.spring.core.xml.di.common.services.FortuneService;
 public class BaseBallCoach extends AbstractCoach {
 
     // Define a private field for the setter injection
-    private FortuneService fortuneService;
-    private String emailAddress;
-    private String teamName;
+    // private FortuneService fortuneService;
+    // private String emailAddress;
+    // private String teamName;
 
     public FortuneService getFortuneService() {
         System.out.println("BaseBallCoach.getFortuneService()");
